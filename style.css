@@ -1,0 +1,101 @@
+body{
+    background-color: blanchedalmond;
+}
+/*-------------------nav------------------------*/
+header{
+    background-color: brown;
+    height: 40px;
+     /* display: flex; 
+     flex-direction: row;
+     text-align: center; */
+}
+header img {
+    margin: 10px ;
+    width: 100px;
+    height: 60px;
+    float: left;
+}
+.nav-header{
+    
+    float:right
+}
+nav{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px 10px;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+/*-----------------table-------------------------*/
+
+main{
+    margin: 40PX 150px;
+    box-shadow: -13px 19px 14px 0px #000000b0;
+    background-color: cadetblue;
+}
+.table-header{
+    font-family: 'Monofett', cursive;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+table{
+    width: 100%;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+td, th{
+    border: 1px solid black;
+}
+th{
+    padding: 20px ;
+}
+td{
+    padding: 10px
+}
+/*-----------------form--------------*/
+.pic-pargraph{
+    padding: 15px 25px;
+    text-align: center;
+}
+.pic-pargraph img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+.pic-pargraph p {
+    font-family: 'Playfair Display', serif;
+    margin-top: 25px;
+}
+.form{
+    align-items: center;
+}
+input,button,label{
+    width: 100%;
+    padding: 0 15px 0 15px
+    margin-top: 15px;
+    padding: 8px 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+/*-------------------footer-------------*/
+footer{
+    margin-top: 22%;
+    background-color: brown;
+    padding: 20px;
+    /* display: flex;
+    gap: 20%; */
+    text-align: center;
+}
+
+footer p{
+     font-family: 'Playfair Display', serif;
+}
